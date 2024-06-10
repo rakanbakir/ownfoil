@@ -1,4 +1,4 @@
-root_dir = "/games"
+root_dir = "./games"
 
 [shop]
 # Scan interval, in minutes
@@ -27,6 +27,8 @@ interval = 60
 [[saves.switches]]
 host = "192.168.1.200"
 port = "5000"
+user = "deepsea"
+pass = "secretpass"
 folders = [
     {local = "Saves/Tinfoil", remote = "/switch/tinfoil/saves/common"},
     {local = "Saves/JKSV", remote = "/JKSV"}
