@@ -2,3 +2,6 @@ __pycache__
 .json
 .tfl
 *.zip
+/app/.env
+ownfoil/.DS_Store
+/ownfoil
