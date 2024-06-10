@@ -5,3 +5,4 @@ __pycache__
 /app/.env
 ownfoil/.DS_Store
 /ownfoil
+games/.DS_Store
