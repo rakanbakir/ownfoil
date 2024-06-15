@@ -1,9 +1,12 @@
-FROM python:3.11-alpine
+FROM python:3.10.14-alpine3.20
 
 RUN mkdir /app
 
 COPY ./app /app
 COPY ./conf/nginx.conf /etc/nginx/http.d/default.conf
+
+RUN pip3 install --upgrade pip
+RUN apk upgrade busybox
 
 RUN apk add --update --no-cache bash nginx apache2-utils sudo
 
